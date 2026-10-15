@@ -1,0 +1,6 @@
+You can edit it according to your own taste
+
+files: 
+- logo.svg
+- favicon.ico
+- og-image.png

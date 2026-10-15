@@ -1,7 +1,0 @@
-.idea/
-.vscode/
-vendor/
-composer.lock
-*.phar
-*.zip
-build/

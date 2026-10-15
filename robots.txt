@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /languages/
+Disallow: /data/
+Disallow: /docs/
+
+Crawl-delay: 1
+
+Sitemap: /sitemap.xml

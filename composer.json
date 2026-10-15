@@ -1,0 +1,47 @@
+{
+    "name": "roham/pocketminetools",
+    "description": "A modern, bilingual web toolkit for PocketMine-MP plugin developers.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RohaM",
+            "homepage": "https://github.com/JustRohams"
+        }
+    ],
+    "keywords": [
+        "pocketmine",
+        "minecraft",
+        "bedrock",
+        "plugin",
+        "formapi",
+        "pmmp",
+        "tools",
+        "developer"
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "suggest": {
+        "ext-zip": "Required for .mcpack download feature in manifest creator",
+        "ext-mbstring": "Better Unicode support for Persian text"
+    },
+    "autoload": {
+        "files": [
+            "includes/bootstrap.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000",
+        "lint": "find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
+    }
+}
