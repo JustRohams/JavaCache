@@ -1,8 +1,0 @@
-You can edit it according to your own taste
-
-files: 
-- click.mp3
-- hover.mp3
-- success.mp3
-- error.mp3
-- toggle.mp3
